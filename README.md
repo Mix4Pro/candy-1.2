@@ -1,1 +1,1 @@
-# candy
+# Simple fornt-end website
