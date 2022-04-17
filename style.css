@@ -652,32 +652,34 @@ transform: rotateX(-90deg); /* Поворачиваем на 90 градусов
 	/* -----------------------------------------------------two-300-1000px----------------------------- */
 
 	.two{
-		margin: 0;
 		display: block;
 		background-image: url("sweets/header.png"); /* The image used */
-		background-color: #cccccc; /* Used if the image is unavailable */
+		width: 100%;
 		height: 500px; /* You must set a specified height */
-		background-position: center; /* Center the image */
+		background-position: 100%; /* Center the image */
 		background-repeat: no-repeat; /* Do not repeat the image */
-		background-size: cover; /* Resize the background image to cover the entire container */
+		background-size: auto;
+		/* background-size: cover; Resize the background image to cover the entire container */
 	}
 
-	.order{
-		text-align: center;
-	}
+	
 	.two-first{
 		position: relative;
 		text-align: center;
-		width: 80%;
+		width: 100%;
 		height: 400px;
-		padding-left: 10%;
 		margin-left: 0;
+		z-index: 1;
 	}
 	.two-second{
 		display: none;
 	}
-
+	
+	/* ------------------------------------------------registration----------------------------------- */
 	.types{
+		text-align: center;
+	}
+	.order{
 		text-align: center;
 	}
 	.order img{
@@ -698,7 +700,6 @@ transform: rotateX(-90deg); /* Поворачиваем на 90 градусов
 	.img-reg{
 		display: none;
 	}
-	/* ------------------------------------------------registration----------------------------------- */
 	
 	.reg-in{
 		display: block;
